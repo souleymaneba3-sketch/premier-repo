@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAKAR IMMO | Contactez-nous</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">DAKAR IMMO</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="biens.html">Nos Biens</a></li>
+                <li><a href="services.html">Nos Services</a></li>
+                <li><a href="about.html">À Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <div class="section-title">
+            <h2>Contactez DAKAR IMMO</h2>
+            <div class="divider"></div>
+            <p style="max-width: 700px; margin: 20px auto 0; font-size: 1.1rem; text-align: center;">
+                Nous sommes à votre écoute pour répondre à toutes vos questions et vous accompagner dans vos projets immobiliers.
+            </p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-form">
+                <h3>Envoyez-nous un message</h3>
+                 <form id="static-contact-form">
+                    <div class="form-group">
+                        <label for="nom">Nom complet</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adresse e-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone">Numéro de téléphone</label>
+                        <input type="tel" id="telephone" name="telephone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="demande">Type de demande</label>
+                        <select id="demande" name="demande" required>
+                            <option value="">-- Sélectionnez un type --</option>
+                            <option value="achat">Achat de bien</option>
+                            <option value="location">Location de bien</option>
+                            <option value="vente">Vente de bien</option>
+                            <option value="gestion">Gestion immobilière</option>
+                            <option value="estimation">Estimation de bien</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Budget (FCFA)</label>
+                        <input type="number" id="budget" name="budget" placeholder="Ex: 50000000" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="localisation">Localisation souhaitée</label>
+                        <input type="text" id="localisation" name="localisation" placeholder="Ex: Almadies, Plateau">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Votre message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Envoyer</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h3>Nos coordonnées</h3>
+                <div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Rue de l'Immobilier, Dakar, Sénégal</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+221 77 123 45 67</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contact@dakarimmo.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Lun-Ven: 9h00 - 18h00<br>Sam: 9h00 - 13h00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>DAKAR IMMO</h4>
+                <p>Votre partenaire immobilier d'excellence au Sénégal depuis plus de 10 ans.</p>
+                <div class="social-links" style="margin-top: 20px;">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Liens rapides</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="biens.html">Nos Biens</a></li>
+                    <li><a href="services.html">Nos Services</a></li>
+                    <li><a href="about.html">À Propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 227 Rue de l'Immobilier, Dakar</p>
+                <p><i class="fas fa-phone"></i> +221 76 665 74 03</p>
+                <p><i class="fas fa-envelope"></i> contact@dakarimmo.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2026 DAKAR IMMO. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
